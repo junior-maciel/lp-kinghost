@@ -1,3 +1,54 @@
-button {
-    @include style-btn (54px, $yellow, $purple)
+.s-hero {
+    margin-top: 120px;
+    background-color: $purple;
+    padding-top: 40px;
+    .container {
+        @include flex (row, flex-start, space-between);
+    }
+    .text {
+        max-width: 550px;
+        width: 100%;
+        h1 {
+            font-family: 'PT Sans', sans-serif;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 120%;
+            color: $white;
+            margin-bottom: 16px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 150%;
+            color: $white;
+            max-width: 488px;
+            margin-bottom: 32px;
+        }
+        button {
+            @include style-btn (54px, $yellow, $purple-dark);
+            margin-bottom: 88px;
+        }
+        .conheca {
+            display: flex;
+            align-items: center; 
+            .icon {
+                width: 42px;
+                height: 42px;
+                background-color: $purple-light;
+                border-radius: 6px;
+                @include flex (row, center, center)
+            }
+            span {
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 19px;
+                color: $white;
+                margin-left: 16px;
+            }
+        }
+    }
+
+    .image {
+        position: relative;
+        top: 36px;
+    }
 }
