@@ -1,2 +1,2 @@
 # lp-kinghost
-Repository for studying HTML, CSS and JS from the CodeBoost course.
+Repository for studying HTML and SASS from the CodeBoost course.
