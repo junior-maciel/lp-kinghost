@@ -1,54 +1,54 @@
 .s-hero {
-    margin-top: 120px;
+    margin-top: 12.0rem;
     background-color: $purple;
-    padding-top: 40px;
+    padding-top: 4.0rem;
     .container {
         @include flex (row, flex-start, space-between);
     }
     .text {
-        max-width: 550px;
+        max-width: 55.0rem;
         width: 100%;
         h1 {
             font-family: 'PT Sans', sans-serif;
             font-weight: 700;
-            font-size: 48px;
+            font-size: 4.8rem;
             line-height: 120%;
             color: $white;
-            margin-bottom: 16px;
+            margin-bottom: 1.6rem;
         }
         p {
-            font-size: 18px;
+            font-size: 1.8rem;
             line-height: 150%;
             color: $white;
-            max-width: 488px;
-            margin-bottom: 32px;
+            max-width: 48.8rem;
+            margin-bottom: 3.2rem;
         }
         button {
-            @include style-btn (54px, $yellow, $purple-dark);
-            margin-bottom: 88px;
+            @include style-btn (5.4rem, $yellow, $purple-dark);
+            margin-bottom: 8.8rem;
         }
         .conheca {
             display: flex;
             align-items: center; 
             .icon {
-                width: 42px;
-                height: 42px;
+                width: 4.2rem;
+                height: 4.2rem;
                 background-color: $purple-light;
                 border-radius: 6px;
                 @include flex (row, center, center)
             }
             span {
                 font-weight: bold;
-                font-size: 16px;
-                line-height: 19px;
+                font-size: 1.6rem;
+                line-height: 1.9rem;
                 color: $white;
-                margin-left: 16px;
+                margin-left: 1.6rem;
             }
         }
     }
 
     .image {
         position: relative;
-        top: 36px;
+        top: 3.6rem;
     }
 }
